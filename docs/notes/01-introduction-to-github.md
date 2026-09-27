@@ -113,13 +113,14 @@ $env:HTTP_PROXY="http://127.0.0.1:7890"
 
 ## 四、实操截图描述
 
-> 截图存放于 [docs/screenshots/](./screenshots/)，命名格式：`course-01-<步骤>.png`
+> 截图存放于 [docs/screenshots/](./screenshots/)，为实际操作时实时截取的真实截图。
 
 | 截图 | 内容描述 |
 |------|----------|
-| `course-01-branch-created.png` | GitHub 仓库页面，显示 `feature/course-01-introduction-to-github` 分支已创建并推送 |
-| `course-01-pull-request.png` | Pull Request 页面：标题、描述、base=`main`、compare=feature 分支 |
-| `course-01-pr-merged.png` | PR 合并成功后的页面，显示 Merged 状态与删除分支按钮 |
+| `course-01-pr-merged.png` | PR #1 合并成功后的页面：标题 "Add my first file"、Merged 状态、3 个 commits 从 `feature/course-01-introduction-to-github` 合并入 `main`、合并提交哈希 `a69f63a`、Revert 按钮 |
+| `course-01-repo-merged.png` | 仓库主页：文件列表（docs/notes、PROFILE.md、README.md）、合并记录（Merge pull request #1 · a69f63a）、README 课程路线表（第一课状态"已完成"） |
+
+> 说明：分支创建瞬间与 PR 打开瞬间的状态未单独截图，已通过 PR 页面与仓库页面的合并记录（commit 哈希、时间）客观佐证。
 
 ## 五、课程收获
 
